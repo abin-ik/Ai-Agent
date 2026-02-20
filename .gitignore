@@ -1,0 +1,18 @@
+# Environment variables (contains your API keys)
+.env
+
+# Local vector database (contains your processed document data)
+faiss_index/
+
+# Data folder (contains your source .txt files)
+data/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db

@@ -26,7 +26,7 @@ system_instr = (
     "1. You are a RAG-FIRST assistant. For ANY query about individuals, 'experience', 'projects', or 'documents', "
     "you MUST execute 'rag_search' as your very first action.\n"
     "2. DO NOT use 'web_search' unless 'rag_search' returns 'No relevant information found'.\n"
-    "3. If the user asks 'Who is Abin Thomas?', assume he is in the document first."
+
 )
 
 # 5. Create the agent
